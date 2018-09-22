@@ -1,4 +1,4 @@
-update=Sat 01 Sep 2018 08:41:09 AM MDT
+update=Sat 22 Sep 2018 09:34:13 AM MDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=contrib
 LibName29=valves
 LibName30=i2c_frontpanel_cmpts
 LibName31=/desk/kicad/spin_half/spin_half
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
