@@ -1,0 +1,26 @@
+---------------------------------------------------------------
+i2c Frontpanel with 7-segment digits, pushbuttons, and two LEDs
+---------------------------------------------------------------
+
+Dumb frontpanel for small projects. Can be daisy-chained as long as
+you do not populate all (except one) of the i2c pull-up resistors.
+
+Powered by ATTiny88.
+
+4-pin inter-header spacing is arduino compatible.
+
+The PCBnew files are:
+
+* 1x7seg_4btn.kicad_pcb (One 7-segment digit, four buttons, two LEDs)
+* 2x7seg_4btn.kicad_pcb (Two 7-segment digits, four buttons, two LEDs)
+* 4x7seg_6btn.kicad_pcb (Four 7-segment digits, six buttons, two LEDs)
+* 4btn.kicad_pcb (Four buttons, two LEDs)
+* 6btn.kicad_pcb (Six buttons, two LEDs)
+* i2c_frontpanel.kicad_pcb (Same as 4x7seg_6btn.kicad_pcb)
+
+Gerber files included for 4x7seg_6btn.kicad_pcb and
+1x7seg_4btn.kicad_pcb designs.
+
+The "firmware" folder contains the firmware for the ATTiny88.
+Uses the ATTinyCore library: https://github.com/SpenceKonde/ATTinyCore
+
