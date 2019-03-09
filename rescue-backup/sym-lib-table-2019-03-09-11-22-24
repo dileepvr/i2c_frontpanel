@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name i2c_frontpanel-rescue)(type Legacy)(uri ${KIPRJMOD}/i2c_frontpanel-rescue.lib)(options "")(descr ""))
+)

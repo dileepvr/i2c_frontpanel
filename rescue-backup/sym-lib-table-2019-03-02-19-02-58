@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name i2c_frontpanel-rescue)(type Legacy)(uri ${KIPRJMOD}/i2c_frontpanel-rescue.lib)(options "")(descr ""))
+  (lib (name i2c_frontpanel_cmpts)(type Legacy)(uri ${KIPRJMOD}/i2c_frontpanel_cmpts.lib)(options "")(descr ""))
+  (lib (name spin_half)(type Legacy)(uri /desk/kicad/spin_half/spin_half.lib)(options "")(descr ""))
+)

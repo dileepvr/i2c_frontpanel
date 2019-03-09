@@ -1,6 +1,37 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:i2c_frontpanel_cmpts
+LIBS:spin_half
 LIBS:i2c_frontpanel-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -15,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L i2c_frontpanel-rescue:ATTINY88-A IC1
+L ATTINY88-A IC1
 U 1 1 5B8A9BE8
 P 2400 2500
 F 0 "IC1" H 1650 4050 50  0000 C CNN
@@ -26,7 +57,7 @@ F 3 "" H 2400 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:I2C_4PINS U8
+L I2C_4PINS U8
 U 1 1 5B8A9EC3
 P 5400 2450
 F 0 "U8" H 5400 2750 60  0000 C CNN
@@ -37,7 +68,7 @@ F 3 "" H 5400 2050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U2
+L SW_SPST U2
 U 1 1 5B8AAA7D
 P 3600 5050
 F 0 "U2" H 3600 5250 60  0000 C CNN
@@ -48,7 +79,7 @@ F 3 "" H 3600 5050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U3
+L SW_SPST U3
 U 1 1 5B8AAAEF
 P 3600 5500
 F 0 "U3" H 3600 5700 60  0000 C CNN
@@ -59,7 +90,7 @@ F 3 "" H 3600 5500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U4
+L SW_SPST U4
 U 1 1 5B8AAB23
 P 3600 5950
 F 0 "U4" H 3600 6150 60  0000 C CNN
@@ -70,7 +101,7 @@ F 3 "" H 3600 5950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U5
+L SW_SPST U5
 U 1 1 5B8AAB8C
 P 3600 6400
 F 0 "U5" H 3600 6600 60  0000 C CNN
@@ -81,7 +112,7 @@ F 3 "" H 3600 6400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U6
+L SW_SPST U6
 U 1 1 5B8AABCA
 P 3600 6850
 F 0 "U6" H 3600 7050 60  0000 C CNN
@@ -92,7 +123,7 @@ F 3 "" H 3600 6850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:SW_SPST U7
+L SW_SPST U7
 U 1 1 5B8AAC07
 P 3600 7300
 F 0 "U7" H 3600 7500 60  0000 C CNN
@@ -103,7 +134,7 @@ F 3 "" H 3600 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:I2C_4PINS U9
+L I2C_4PINS U9
 U 1 1 5B8AAD3F
 P 5400 3200
 F 0 "U9" H 5400 3500 60  0000 C CNN
@@ -114,7 +145,7 @@ F 3 "" H 5400 2800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:AVR-ISP-6-DR CON1
+L AVR-ISP-6-DR CON1
 U 1 1 5B8AAE4C
 P 4850 1050
 F 0 "CON1" H 4770 1290 50  0000 C CNN
@@ -125,7 +156,7 @@ F 3 "" H 4850 1050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:74HC14D_653 U1
+L 74HC14D_653 U1
 U 1 1 5B8AC003
 P 1850 6750
 F 0 "U1" H 1850 7650 60  0000 C CNN
@@ -136,7 +167,7 @@ F 3 "" H 1900 6750 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:MC14543B U12
+L MC14543B U12
 U 1 1 5B8ACFB0
 P 7450 4200
 F 0 "U12" H 7450 4750 60  0000 C CNN
@@ -147,7 +178,7 @@ F 3 "" H 7500 4200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:7SEGMENTS AFF3
+L 7SEGMENTS AFF3
 U 1 1 5B8ACFDD
 P 9200 4250
 F 0 "AFF3" H 9200 4800 50  0000 C CNN
@@ -158,7 +189,7 @@ F 3 "" H 9200 4250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:MC14543B U11
+L MC14543B U11
 U 1 1 5B8AD718
 P 7450 2900
 F 0 "U11" H 7450 3450 60  0000 C CNN
@@ -169,7 +200,7 @@ F 3 "" H 7500 2900 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:MC14543B U13
+L MC14543B U13
 U 1 1 5B8AD7A6
 P 7450 5450
 F 0 "U13" H 7450 6000 60  0000 C CNN
@@ -180,7 +211,7 @@ F 3 "" H 7500 5450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:7SEGMENTS AFF4
+L 7SEGMENTS AFF4
 U 1 1 5B8AD819
 P 9200 5500
 F 0 "AFF4" H 9200 6050 50  0000 C CNN
@@ -191,7 +222,7 @@ F 3 "" H 9200 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:7SEGMENTS AFF2
+L 7SEGMENTS AFF2
 U 1 1 5B8AD8D8
 P 9200 2950
 F 0 "AFF2" H 9200 3500 50  0000 C CNN
@@ -202,7 +233,7 @@ F 3 "" H 9200 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:MC14543B U10
+L MC14543B U10
 U 1 1 5B8ADD78
 P 7450 1600
 F 0 "U10" H 7450 2150 60  0000 C CNN
@@ -213,7 +244,7 @@ F 3 "" H 7500 1600 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:7SEGMENTS AFF1
+L 7SEGMENTS AFF1
 U 1 1 5B8ADE3C
 P 9200 1650
 F 0 "AFF1" H 9200 2200 50  0000 C CNN
@@ -224,7 +255,7 @@ F 3 "" H 9200 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:LED D1
+L LED D1
 U 1 1 5B8AE0AA
 P 5700 5150
 F 0 "D1" H 5700 5250 50  0000 C CNN
@@ -235,7 +266,7 @@ F 3 "" H 5700 5150 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:LED D2
+L LED D2
 U 1 1 5B8AE2A7
 P 5700 6700
 F 0 "D2" H 5700 6800 50  0000 C CNN
@@ -246,7 +277,7 @@ F 3 "" H 5700 6700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q1
+L 2N7002 Q1
 U 1 1 5B8AECDF
 P 5600 5650
 F 0 "Q1" H 5800 5725 50  0000 L CNN
@@ -257,7 +288,7 @@ F 3 "" H 5600 5650 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q2
+L 2N7002 Q2
 U 1 1 5B8AED77
 P 5600 7200
 F 0 "Q2" H 5800 7275 50  0000 L CNN
@@ -296,7 +327,7 @@ GND
 Text Label 5350 950  2    60   ~ 0
 Vcc
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR01
+L VCC #PWR01
 U 1 1 5B8D9B11
 P 1200 900
 F 0 "#PWR01" H 1200 750 50  0001 C CNN
@@ -309,7 +340,7 @@ $EndComp
 Text Label 1200 1400 0    60   ~ 0
 Vcc
 $Comp
-L i2c_frontpanel-rescue:GND #PWR02
+L GND #PWR02
 U 1 1 5B8D9FD5
 P 1250 4100
 F 0 "#PWR02" H 1250 3850 50  0001 C CNN
@@ -322,7 +353,7 @@ $EndComp
 Text Label 1250 3850 0    60   ~ 0
 GND
 $Comp
-L i2c_frontpanel-rescue:R R9
+L R R9
 U 1 1 5B8DA97D
 P 3950 2800
 F 0 "R9" V 4030 2800 50  0000 C CNN
@@ -337,7 +368,7 @@ SCL
 Text Label 3650 2800 2    60   ~ 0
 SDA
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR03
+L VCC #PWR03
 U 1 1 5B8DABDF
 P 3950 2550
 F 0 "#PWR03" H 3950 2400 50  0001 C CNN
@@ -356,7 +387,7 @@ MOSI
 Text Label 3650 2050 2    60   ~ 0
 SCK
 $Comp
-L i2c_frontpanel-rescue:C C3
+L C C3
 U 1 1 5B8DBB8A
 P 1200 1650
 F 0 "C3" H 1225 1750 50  0000 L CNN
@@ -367,7 +398,7 @@ F 3 "" H 1200 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR04
+L GND #PWR04
 U 1 1 5B8DBC19
 P 1200 1950
 F 0 "#PWR04" H 1200 1700 50  0001 C CNN
@@ -378,7 +409,7 @@ F 3 "" H 1200 1950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R20
+L R R20
 U 1 1 5B8DCC72
 P 5200 1600
 F 0 "R20" V 5280 1600 50  0000 C CNN
@@ -389,7 +420,7 @@ F 3 "" H 5200 1600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R21
+L R R21
 U 1 1 5B8DCDD8
 P 5200 1850
 F 0 "R21" V 5280 1850 50  0000 C CNN
@@ -400,7 +431,7 @@ F 3 "" H 5200 1850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR05
+L VCC #PWR05
 U 1 1 5B8DCFB3
 P 5600 1500
 F 0 "#PWR05" H 5600 1350 50  0001 C CNN
@@ -436,11 +467,11 @@ Text Label 850  6750 0    60   ~ 0
 SW2
 Text Label 850  7150 0    60   ~ 0
 SW3
-Text Label 2650 7350 2    60   ~ 0
+Text Label 2900 7150 2    60   ~ 0
 SW4
-Text Label 2650 6950 2    60   ~ 0
+Text Label 2900 6750 2    60   ~ 0
 SW5
-Text Label 2650 6550 2    60   ~ 0
+Text Label 2900 6350 2    60   ~ 0
 SW6
 Text Label 4000 2250 2    60   ~ 0
 SW1
@@ -467,7 +498,7 @@ LED1
 Text Label 3950 3450 2    60   ~ 0
 LED2
 $Comp
-L i2c_frontpanel-rescue:C C1
+L C C1
 U 1 1 5B8E5A23
 P 900 1650
 F 0 "C1" H 925 1750 50  0000 L CNN
@@ -478,7 +509,7 @@ F 3 "" H 900 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR06
+L VCC #PWR06
 U 1 1 5B8E6570
 P 6550 1700
 F 0 "#PWR06" H 6550 1550 50  0001 C CNN
@@ -489,7 +520,7 @@ F 3 "" H 6550 1700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR07
+L VCC #PWR07
 U 1 1 5B8E6641
 P 6550 3000
 F 0 "#PWR07" H 6550 2850 50  0001 C CNN
@@ -500,7 +531,7 @@ F 3 "" H 6550 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR08
+L VCC #PWR08
 U 1 1 5B8E6796
 P 6550 4300
 F 0 "#PWR08" H 6550 4150 50  0001 C CNN
@@ -511,7 +542,7 @@ F 3 "" H 6550 4300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR09
+L VCC #PWR09
 U 1 1 5B8E69B1
 P 6550 5550
 F 0 "#PWR09" H 6550 5400 50  0001 C CNN
@@ -522,7 +553,7 @@ F 3 "" H 6550 5550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR010
+L GND #PWR010
 U 1 1 5B8E78EC
 P 6900 2050
 F 0 "#PWR010" H 6900 1800 50  0001 C CNN
@@ -533,7 +564,7 @@ F 3 "" H 6900 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR011
+L GND #PWR011
 U 1 1 5B8E79DE
 P 6900 3350
 F 0 "#PWR011" H 6900 3100 50  0001 C CNN
@@ -544,7 +575,7 @@ F 3 "" H 6900 3350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR012
+L GND #PWR012
 U 1 1 5B8E7A8E
 P 6900 4650
 F 0 "#PWR012" H 6900 4400 50  0001 C CNN
@@ -555,7 +586,7 @@ F 3 "" H 6900 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR013
+L GND #PWR013
 U 1 1 5B8E7BE3
 P 6900 5900
 F 0 "#PWR013" H 6900 5650 50  0001 C CNN
@@ -566,7 +597,7 @@ F 3 "" H 6900 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR014
+L VCC #PWR014
 U 1 1 5B8E83B3
 P 8050 1150
 F 0 "#PWR014" H 8050 1000 50  0001 C CNN
@@ -577,7 +608,7 @@ F 3 "" H 8050 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR015
+L VCC #PWR015
 U 1 1 5B8E8421
 P 8050 2500
 F 0 "#PWR015" H 8050 2350 50  0001 C CNN
@@ -588,7 +619,7 @@ F 3 "" H 8050 2500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR016
+L VCC #PWR016
 U 1 1 5B8E8560
 P 8050 5050
 F 0 "#PWR016" H 8050 4900 50  0001 C CNN
@@ -599,7 +630,7 @@ F 3 "" H 8050 5050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q3
+L 2N7002 Q3
 U 1 1 5B8E8C4A
 P 10300 1600
 F 0 "Q3" H 10500 1675 50  0000 L CNN
@@ -610,7 +641,7 @@ F 3 "" H 10300 1600 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q4
+L 2N7002 Q4
 U 1 1 5B8E8D86
 P 10300 2900
 F 0 "Q4" H 10500 2975 50  0000 L CNN
@@ -621,7 +652,7 @@ F 3 "" H 10300 2900 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q5
+L 2N7002 Q5
 U 1 1 5B8E8E3B
 P 10300 4200
 F 0 "Q5" H 10500 4275 50  0000 L CNN
@@ -632,7 +663,7 @@ F 3 "" H 10300 4200 50  0000 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:2N7002 Q6
+L 2N7002 Q6
 U 1 1 5B8E8EE3
 P 10300 5450
 F 0 "Q6" H 10500 5525 50  0000 L CNN
@@ -683,7 +714,7 @@ D
 Text Label 6750 5500 0    60   ~ 0
 A
 $Comp
-L i2c_frontpanel-rescue:R R24
+L R R24
 U 1 1 5B8EC4AA
 P 8100 1350
 F 0 "R24" V 8050 1150 50  0000 C CNN
@@ -694,7 +725,7 @@ F 3 "" H 8100 1350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R25
+L R R25
 U 1 1 5B8EC6D5
 P 8100 1450
 F 0 "R25" V 8050 1250 50  0000 C CNN
@@ -705,7 +736,7 @@ F 3 "" H 8100 1450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R26
+L R R26
 U 1 1 5B8EC74E
 P 8100 1550
 F 0 "R26" V 8050 1350 50  0000 C CNN
@@ -716,7 +747,7 @@ F 3 "" H 8100 1550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R27
+L R R27
 U 1 1 5B8EC7CE
 P 8100 1650
 F 0 "R27" V 8050 1450 50  0000 C CNN
@@ -727,7 +758,7 @@ F 3 "" H 8100 1650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R28
+L R R28
 U 1 1 5B8EC84D
 P 8100 1750
 F 0 "R28" V 8050 1550 50  0000 C CNN
@@ -738,7 +769,7 @@ F 3 "" H 8100 1750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R29
+L R R29
 U 1 1 5B8EC8CF
 P 8100 1850
 F 0 "R29" V 8050 1650 50  0000 C CNN
@@ -749,7 +780,7 @@ F 3 "" H 8100 1850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R31
+L R R31
 U 1 1 5B8ECADA
 P 8100 2650
 F 0 "R31" V 8050 2450 50  0000 C CNN
@@ -760,7 +791,7 @@ F 3 "" H 8100 2650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R32
+L R R32
 U 1 1 5B8ECBF8
 P 8100 2750
 F 0 "R32" V 8050 2550 50  0000 C CNN
@@ -771,7 +802,7 @@ F 3 "" H 8100 2750 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R33
+L R R33
 U 1 1 5B8ECCAC
 P 8100 2850
 F 0 "R33" V 8050 2650 50  0000 C CNN
@@ -782,7 +813,7 @@ F 3 "" H 8100 2850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R34
+L R R34
 U 1 1 5B8ECD64
 P 8100 2950
 F 0 "R34" V 8050 2750 50  0000 C CNN
@@ -793,7 +824,7 @@ F 3 "" H 8100 2950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R35
+L R R35
 U 1 1 5B8ECDF5
 P 8100 3050
 F 0 "R35" V 8050 2850 50  0000 C CNN
@@ -804,7 +835,7 @@ F 3 "" H 8100 3050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R36
+L R R36
 U 1 1 5B8ECE89
 P 8100 3150
 F 0 "R36" V 8050 2950 50  0000 C CNN
@@ -815,7 +846,7 @@ F 3 "" H 8100 3150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R37
+L R R37
 U 1 1 5B8ECF7A
 P 8100 3250
 F 0 "R37" V 8050 3050 50  0000 C CNN
@@ -826,7 +857,7 @@ F 3 "" H 8100 3250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R38
+L R R38
 U 1 1 5B8ED227
 P 8100 3950
 F 0 "R38" V 8050 3750 50  0000 C CNN
@@ -837,7 +868,7 @@ F 3 "" H 8100 3950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R39
+L R R39
 U 1 1 5B8ED3E7
 P 8100 4050
 F 0 "R39" V 8050 3850 50  0000 C CNN
@@ -848,7 +879,7 @@ F 3 "" H 8100 4050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R40
+L R R40
 U 1 1 5B8ED4B7
 P 8100 4150
 F 0 "R40" V 8050 3950 50  0000 C CNN
@@ -859,7 +890,7 @@ F 3 "" H 8100 4150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R41
+L R R41
 U 1 1 5B8ED58B
 P 8100 4250
 F 0 "R41" V 8050 4050 50  0000 C CNN
@@ -870,7 +901,7 @@ F 3 "" H 8100 4250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R42
+L R R42
 U 1 1 5B8ED663
 P 8100 4350
 F 0 "R42" V 8050 4150 50  0000 C CNN
@@ -881,7 +912,7 @@ F 3 "" H 8100 4350 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R43
+L R R43
 U 1 1 5B8ED80F
 P 8100 4450
 F 0 "R43" V 8050 4250 50  0000 C CNN
@@ -892,7 +923,7 @@ F 3 "" H 8100 4450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R44
+L R R44
 U 1 1 5B8ED8BB
 P 8100 4550
 F 0 "R44" V 8050 4350 50  0000 C CNN
@@ -903,7 +934,7 @@ F 3 "" H 8100 4550 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R45
+L R R45
 U 1 1 5B8EDC0A
 P 8100 5200
 F 0 "R45" V 8050 5000 50  0000 C CNN
@@ -914,7 +945,7 @@ F 3 "" H 8100 5200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R46
+L R R46
 U 1 1 5B8EDDE6
 P 8100 5300
 F 0 "R46" V 8050 5100 50  0000 C CNN
@@ -925,7 +956,7 @@ F 3 "" H 8100 5300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R47
+L R R47
 U 1 1 5B8EDED2
 P 8100 5400
 F 0 "R47" V 8050 5200 50  0000 C CNN
@@ -936,7 +967,7 @@ F 3 "" H 8100 5400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R48
+L R R48
 U 1 1 5B8EDFC2
 P 8100 5500
 F 0 "R48" V 8050 5300 50  0000 C CNN
@@ -947,7 +978,7 @@ F 3 "" H 8100 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R49
+L R R49
 U 1 1 5B8EE0B6
 P 8100 5600
 F 0 "R49" V 8050 5400 50  0000 C CNN
@@ -958,7 +989,7 @@ F 3 "" H 8100 5600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R50
+L R R50
 U 1 1 5B8EE174
 P 8100 5700
 F 0 "R50" V 8050 5500 50  0000 C CNN
@@ -969,7 +1000,7 @@ F 3 "" H 8100 5700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R51
+L R R51
 U 1 1 5B8EE235
 P 8100 5800
 F 0 "R51" V 8050 5600 50  0000 C CNN
@@ -980,7 +1011,7 @@ F 3 "" H 8100 5800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R30
+L R R30
 U 1 1 5B8F0594
 P 8100 1950
 F 0 "R30" V 8050 1750 50  0000 C CNN
@@ -991,7 +1022,7 @@ F 3 "" H 8100 1950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R52
+L R R52
 U 1 1 5B8FAB2F
 P 10400 2000
 F 0 "R52" V 10480 2000 50  0000 C CNN
@@ -1002,7 +1033,7 @@ F 3 "" H 10400 2000 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R53
+L R R53
 U 1 1 5B8FACFB
 P 10400 3300
 F 0 "R53" V 10480 3300 50  0000 C CNN
@@ -1013,7 +1044,7 @@ F 3 "" H 10400 3300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R54
+L R R54
 U 1 1 5B8FB004
 P 10400 4600
 F 0 "R54" V 10480 4600 50  0000 C CNN
@@ -1024,7 +1055,7 @@ F 3 "" H 10400 4600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R55
+L R R55
 U 1 1 5B8FC912
 P 10400 5850
 F 0 "R55" V 10480 5850 50  0000 C CNN
@@ -1035,7 +1066,7 @@ F 3 "" H 10400 5850 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R7
+L R R7
 U 1 1 5B8FDA40
 P 3600 1100
 F 0 "R7" V 3680 1100 50  0000 C CNN
@@ -1046,7 +1077,7 @@ F 3 "" H 3600 1100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R8
+L R R8
 U 1 1 5B8FDC73
 P 3600 1200
 F 0 "R8" V 3680 1200 50  0000 C CNN
@@ -1057,7 +1088,7 @@ F 3 "" H 3600 1200 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R10
+L R R10
 U 1 1 5B8FDD4C
 P 4200 2050
 F 0 "R10" V 4280 2050 50  0000 C CNN
@@ -1068,7 +1099,7 @@ F 3 "" H 4200 2050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R11
+L R R11
 U 1 1 5B8FE25E
 P 4200 3100
 F 0 "R11" V 4280 3100 50  0000 C CNN
@@ -1079,7 +1110,7 @@ F 3 "" H 4200 3100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR017
+L VCC #PWR017
 U 1 1 5B901249
 P 9900 1150
 F 0 "#PWR017" H 9900 1000 50  0001 C CNN
@@ -1090,7 +1121,7 @@ F 3 "" H 9900 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR018
+L VCC #PWR018
 U 1 1 5B9015C8
 P 9900 2450
 F 0 "#PWR018" H 9900 2300 50  0001 C CNN
@@ -1101,7 +1132,7 @@ F 3 "" H 9900 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR019
+L VCC #PWR019
 U 1 1 5B903013
 P 9900 3750
 F 0 "#PWR019" H 9900 3600 50  0001 C CNN
@@ -1112,7 +1143,7 @@ F 3 "" H 9900 3750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR020
+L VCC #PWR020
 U 1 1 5B903C60
 P 9950 5000
 F 0 "#PWR020" H 9950 4850 50  0001 C CNN
@@ -1123,7 +1154,7 @@ F 3 "" H 9950 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR021
+L GND #PWR021
 U 1 1 5B90427D
 P 10400 6050
 F 0 "#PWR021" H 10400 5800 50  0001 C CNN
@@ -1134,7 +1165,7 @@ F 3 "" H 10400 6050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR022
+L GND #PWR022
 U 1 1 5B904426
 P 10400 4800
 F 0 "#PWR022" H 10400 4550 50  0001 C CNN
@@ -1145,7 +1176,7 @@ F 3 "" H 10400 4800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR023
+L GND #PWR023
 U 1 1 5B904659
 P 10400 3500
 F 0 "#PWR023" H 10400 3250 50  0001 C CNN
@@ -1156,7 +1187,7 @@ F 3 "" H 10400 3500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR024
+L GND #PWR024
 U 1 1 5B9048D1
 P 10400 2200
 F 0 "#PWR024" H 10400 1950 50  0001 C CNN
@@ -1175,7 +1206,7 @@ DP2
 Text Label 9950 5500 0    60   ~ 0
 DP3
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR025
+L VCC #PWR025
 U 1 1 5B90687D
 P 5700 4900
 F 0 "#PWR025" H 5700 4750 50  0001 C CNN
@@ -1186,7 +1217,7 @@ F 3 "" H 5700 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR026
+L VCC #PWR026
 U 1 1 5B906957
 P 5700 6450
 F 0 "#PWR026" H 5700 6300 50  0001 C CNN
@@ -1197,7 +1228,7 @@ F 3 "" H 5700 6450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR027
+L GND #PWR027
 U 1 1 5B906B00
 P 6150 5900
 F 0 "#PWR027" H 6150 5650 50  0001 C CNN
@@ -1208,7 +1239,7 @@ F 3 "" H 6150 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR028
+L GND #PWR028
 U 1 1 5B906BDA
 P 6150 7450
 F 0 "#PWR028" H 6150 7200 50  0001 C CNN
@@ -1219,7 +1250,7 @@ F 3 "" H 6150 7450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R22
+L R R22
 U 1 1 5B907DDC
 P 5950 5850
 F 0 "R22" V 6030 5850 50  0000 C CNN
@@ -1230,7 +1261,7 @@ F 3 "" H 5950 5850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R23
+L R R23
 U 1 1 5B90819A
 P 5950 7400
 F 0 "R23" V 6030 7400 50  0000 C CNN
@@ -1241,7 +1272,7 @@ F 3 "" H 5950 7400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R19
+L R R19
 U 1 1 5B908D24
 P 5150 7250
 F 0 "R19" V 5230 7250 50  0000 C CNN
@@ -1252,7 +1283,7 @@ F 3 "" H 5150 7250 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R18
+L R R18
 U 1 1 5B908E76
 P 5150 5700
 F 0 "R18" V 5230 5700 50  0000 C CNN
@@ -1267,7 +1298,7 @@ LED1
 Text Label 4800 7250 0    60   ~ 0
 LED2
 $Comp
-L i2c_frontpanel-rescue:GND #PWR029
+L GND #PWR029
 U 1 1 5B90C635
 P 1050 7400
 F 0 "#PWR029" H 1050 7150 50  0001 C CNN
@@ -1278,7 +1309,7 @@ F 3 "" H 1050 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR030
+L VCC #PWR030
 U 1 1 5B90C71B
 P 2650 6100
 F 0 "#PWR030" H 2650 5950 50  0001 C CNN
@@ -1294,14 +1325,14 @@ Text Label 1050 6550 0    60   ~ 0
 B2
 Text Label 1050 6950 0    60   ~ 0
 B3
-Text Label 2900 7150 2    60   ~ 0
+Text Label 2650 7350 2    60   ~ 0
 B4
-Text Label 2900 6750 2    60   ~ 0
+Text Label 2650 6950 2    60   ~ 0
 B5
-Text Label 2900 6350 2    60   ~ 0
+Text Label 2650 6550 2    60   ~ 0
 B6
 $Comp
-L i2c_frontpanel-rescue:C C2
+L C C2
 U 1 1 5B90E9F5
 P 900 5400
 F 0 "C2" H 925 5500 50  0000 L CNN
@@ -1312,7 +1343,7 @@ F 3 "" H 900 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:C C4
+L C C4
 U 1 1 5B90EBFB
 P 1250 5400
 F 0 "C4" H 1275 5500 50  0000 L CNN
@@ -1323,7 +1354,7 @@ F 3 "" H 1250 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:C C5
+L C C5
 U 1 1 5B90ECF6
 P 1600 5400
 F 0 "C5" H 1625 5500 50  0000 L CNN
@@ -1334,7 +1365,7 @@ F 3 "" H 1600 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:C C6
+L C C6
 U 1 1 5B90EDF4
 P 1950 5400
 F 0 "C6" H 1975 5500 50  0000 L CNN
@@ -1345,7 +1376,7 @@ F 3 "" H 1950 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:C C7
+L C C7
 U 1 1 5B90EEF5
 P 2300 5400
 F 0 "C7" H 2325 5500 50  0000 L CNN
@@ -1356,7 +1387,7 @@ F 3 "" H 2300 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:C C8
+L C C8
 U 1 1 5B90EFF9
 P 2650 5400
 F 0 "C8" H 2675 5500 50  0000 L CNN
@@ -1367,7 +1398,7 @@ F 3 "" H 2650 5400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR031
+L GND #PWR031
 U 1 1 5B90F7BB
 P 700 5600
 F 0 "#PWR031" H 700 5350 50  0001 C CNN
@@ -1378,7 +1409,7 @@ F 3 "" H 700 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R1
+L R R1
 U 1 1 5B911B15
 P 900 4950
 F 0 "R1" V 980 4950 50  0000 C CNN
@@ -1389,7 +1420,7 @@ F 3 "" H 900 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R2
+L R R2
 U 1 1 5B912335
 P 1250 4950
 F 0 "R2" V 1330 4950 50  0000 C CNN
@@ -1400,7 +1431,7 @@ F 3 "" H 1250 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R3
+L R R3
 U 1 1 5B912493
 P 1600 4950
 F 0 "R3" V 1680 4950 50  0000 C CNN
@@ -1411,7 +1442,7 @@ F 3 "" H 1600 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R4
+L R R4
 U 1 1 5B912700
 P 1950 4950
 F 0 "R4" V 2030 4950 50  0000 C CNN
@@ -1422,7 +1453,7 @@ F 3 "" H 1950 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R5
+L R R5
 U 1 1 5B912813
 P 2300 4950
 F 0 "R5" V 2380 4950 50  0000 C CNN
@@ -1433,7 +1464,7 @@ F 3 "" H 2300 4950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R6
+L R R6
 U 1 1 5B91292D
 P 2650 4950
 F 0 "R6" V 2730 4950 50  0000 C CNN
@@ -1480,7 +1511,7 @@ S5
 Text Label 4000 7150 2    60   ~ 0
 S6
 $Comp
-L i2c_frontpanel-rescue:R R12
+L R R12
 U 1 1 5B9181C9
 P 4200 5050
 F 0 "R12" V 4280 5050 50  0000 C CNN
@@ -1491,7 +1522,7 @@ F 3 "" H 4200 5050 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R13
+L R R13
 U 1 1 5B9189D3
 P 4200 5500
 F 0 "R13" V 4280 5500 50  0000 C CNN
@@ -1502,7 +1533,7 @@ F 3 "" H 4200 5500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R14
+L R R14
 U 1 1 5B918D08
 P 4200 5950
 F 0 "R14" V 4280 5950 50  0000 C CNN
@@ -1513,7 +1544,7 @@ F 3 "" H 4200 5950 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R15
+L R R15
 U 1 1 5B918E88
 P 4200 6400
 F 0 "R15" V 4280 6400 50  0000 C CNN
@@ -1524,7 +1555,7 @@ F 3 "" H 4200 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R16
+L R R16
 U 1 1 5B919117
 P 4200 6850
 F 0 "R16" V 4280 6850 50  0000 C CNN
@@ -1535,7 +1566,7 @@ F 3 "" H 4200 6850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:R R17
+L R R17
 U 1 1 5B919353
 P 4200 7300
 F 0 "R17" V 4280 7300 50  0000 C CNN
@@ -1546,7 +1577,7 @@ F 3 "" H 4200 7300 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR032
+L VCC #PWR032
 U 1 1 5B91C2AC
 P 4350 4900
 F 0 "#PWR032" H 4350 4750 50  0001 C CNN
@@ -1557,7 +1588,7 @@ F 3 "" H 4350 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L i2c_frontpanel-rescue:GND #PWR033
+L GND #PWR033
 U 1 1 5B91E5B2
 P 3100 7450
 F 0 "#PWR033" H 3100 7200 50  0001 C CNN
@@ -1598,14 +1629,14 @@ Wire Wire Line
 Wire Wire Line
 	1450 1100 1200 1100
 Wire Wire Line
-	1200 900  1200 1100
+	1200 900  1200 1500
 Wire Wire Line
-	900  1400 1200 1400
+	900  1400 1450 1400
 Connection ~ 1200 1100
 Wire Wire Line
 	1450 3950 1250 3950
 Wire Wire Line
-	1250 3850 1250 3950
+	1250 3850 1250 4100
 Wire Wire Line
 	1450 3850 1250 3850
 Connection ~ 1250 3950
@@ -1614,7 +1645,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2800 3650 2800
 Wire Wire Line
-	3350 3000 3950 3000
+	3350 3000 4200 3000
 Wire Wire Line
 	3950 3000 3950 2950
 Wire Wire Line
@@ -1628,7 +1659,7 @@ Wire Wire Line
 	3350 2050 4050 2050
 Connection ~ 1200 1400
 Wire Wire Line
-	1200 1800 1200 1900
+	1200 1800 1200 1950
 Wire Wire Line
 	3350 1750 4000 1750
 Wire Wire Line
@@ -1704,28 +1735,28 @@ Wire Wire Line
 Wire Wire Line
 	7000 5700 6900 5700
 Wire Wire Line
-	6900 5700 6900 5800
+	6900 5700 6900 5900
 Wire Wire Line
 	7000 5800 6900 5800
 Connection ~ 6900 5800
 Wire Wire Line
 	7000 4450 6900 4450
 Wire Wire Line
-	6900 4450 6900 4550
+	6900 4450 6900 4650
 Wire Wire Line
 	7000 4550 6900 4550
 Connection ~ 6900 4550
 Wire Wire Line
 	7000 3150 6900 3150
 Wire Wire Line
-	6900 3150 6900 3250
+	6900 3150 6900 3350
 Wire Wire Line
 	7000 3250 6900 3250
 Connection ~ 6900 3250
 Wire Wire Line
 	7000 1850 6900 1850
 Wire Wire Line
-	6900 1850 6900 1950
+	6900 1850 6900 2050
 Wire Wire Line
 	7000 1950 6900 1950
 Connection ~ 6900 1950
@@ -2082,21 +2113,21 @@ Wire Wire Line
 Wire Wire Line
 	9800 1300 9900 1300
 Wire Wire Line
-	9900 1300 9900 1200
+	9900 1300 9900 1150
 Wire Wire Line
 	9800 1200 9900 1200
 Connection ~ 9900 1200
 Wire Wire Line
 	9800 2600 9900 2600
 Wire Wire Line
-	9900 2600 9900 2500
+	9900 2600 9900 2450
 Wire Wire Line
 	9800 2500 9900 2500
 Connection ~ 9900 2500
 Wire Wire Line
 	9800 3900 9900 3900
 Wire Wire Line
-	9900 3900 9900 3800
+	9900 3900 9900 3750
 Wire Wire Line
 	9800 3800 9900 3800
 Connection ~ 9900 3800
@@ -2107,7 +2138,7 @@ Wire Wire Line
 Wire Wire Line
 	9800 5150 9950 5150
 Wire Wire Line
-	9950 5150 9950 5050
+	9950 5150 9950 5000
 Wire Wire Line
 	9800 5050 9950 5050
 Connection ~ 9950 5050
@@ -2164,7 +2195,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 7350 1050 7400
 Wire Wire Line
-	700  5550 900  5550
+	700  5550 2650 5550
 Connection ~ 2300 5550
 Connection ~ 1950 5550
 Connection ~ 1600 5550
@@ -2173,17 +2204,17 @@ Wire Wire Line
 	700  5550 700  5600
 Connection ~ 900  5550
 Wire Wire Line
-	900  5250 900  5150
+	900  5250 900  5100
 Wire Wire Line
-	1250 5250 1250 5150
+	1250 5250 1250 5100
 Wire Wire Line
-	1600 5250 1600 5150
+	1600 5250 1600 5100
 Wire Wire Line
-	1950 5100 1950 5150
+	1950 5100 1950 5250
 Wire Wire Line
-	2300 5100 2300 5150
+	2300 5100 2300 5250
 Wire Wire Line
-	2650 5100 2650 5150
+	2650 5100 2650 5250
 Wire Wire Line
 	900  5150 800  5150
 Connection ~ 900  5150
@@ -2215,19 +2246,19 @@ Wire Wire Line
 Wire Wire Line
 	2650 4800 2650 4650
 Wire Wire Line
-	3950 7300 4000 7300
+	3950 7300 4050 7300
 Wire Wire Line
-	4050 6850 4000 6850
+	4050 6850 3950 6850
 Wire Wire Line
-	3950 6400 4000 6400
+	3950 6400 4050 6400
 Wire Wire Line
-	3950 5950 4000 5950
+	3950 5950 4050 5950
 Wire Wire Line
-	4050 5500 4000 5500
+	4050 5500 3950 5500
 Wire Wire Line
-	3950 5050 4000 5050
+	3950 5050 4050 5050
 Wire Wire Line
-	3250 5050 3250 5500
+	3250 5050 3250 7300
 Connection ~ 3250 5500
 Connection ~ 3250 5950
 Connection ~ 3250 6400
@@ -2242,7 +2273,7 @@ Connection ~ 4350 5950
 Connection ~ 4350 5500
 Connection ~ 4350 5050
 Wire Wire Line
-	4350 4900 4350 5050
+	4350 4900 4350 7300
 Wire Wire Line
 	4000 5050 4000 4900
 Connection ~ 4000 5050
@@ -2267,7 +2298,7 @@ NoConn ~ 3350 2600
 NoConn ~ 3350 2700
 NoConn ~ 3350 3250
 $Comp
-L i2c_frontpanel-rescue:VCC #PWR034
+L VCC #PWR034
 U 1 1 5B8E848F
 P 8050 3800
 F 0 "#PWR034" H 8050 3650 50  0001 C CNN
@@ -2280,93 +2311,11 @@ $EndComp
 Wire Wire Line
 	6550 5600 6550 5550
 Wire Wire Line
-	5600 1500 5600 1600
+	5600 1500 5600 1850
 Wire Wire Line
 	8050 3850 8050 3800
 Wire Wire Line
 	10400 3450 10400 3500
 Wire Wire Line
 	10400 4750 10400 4800
-Wire Wire Line
-	1200 1100 1200 1400
-Wire Wire Line
-	1250 3950 1250 4100
-Wire Wire Line
-	3950 3000 4200 3000
-Wire Wire Line
-	1200 1400 1450 1400
-Wire Wire Line
-	1200 1400 1200 1500
-Wire Wire Line
-	5600 1600 5600 1850
-Wire Wire Line
-	1200 1900 1200 1950
-Wire Wire Line
-	6900 5800 6900 5900
-Wire Wire Line
-	6900 4550 6900 4650
-Wire Wire Line
-	6900 3250 6900 3350
-Wire Wire Line
-	6900 1950 6900 2050
-Wire Wire Line
-	9900 1200 9900 1150
-Wire Wire Line
-	9900 2500 9900 2450
-Wire Wire Line
-	9900 3800 9900 3750
-Wire Wire Line
-	9950 5050 9950 5000
-Wire Wire Line
-	2300 5550 2650 5550
-Wire Wire Line
-	1950 5550 2300 5550
-Wire Wire Line
-	1600 5550 1950 5550
-Wire Wire Line
-	1250 5550 1600 5550
-Wire Wire Line
-	900  5550 1250 5550
-Wire Wire Line
-	900  5150 900  5100
-Wire Wire Line
-	1250 5150 1250 5100
-Wire Wire Line
-	1600 5150 1600 5100
-Wire Wire Line
-	1950 5150 1950 5250
-Wire Wire Line
-	2300 5150 2300 5250
-Wire Wire Line
-	2650 5150 2650 5250
-Wire Wire Line
-	3250 5500 3250 5950
-Wire Wire Line
-	3250 5950 3250 6400
-Wire Wire Line
-	3250 6400 3250 6850
-Wire Wire Line
-	3250 6850 3250 7300
-Wire Wire Line
-	4350 6850 4350 7300
-Wire Wire Line
-	4350 6400 4350 6850
-Wire Wire Line
-	4350 5950 4350 6400
-Wire Wire Line
-	4350 5500 4350 5950
-Wire Wire Line
-	4350 5050 4350 5500
-Wire Wire Line
-	4000 5050 4050 5050
-Wire Wire Line
-	4000 5500 3950 5500
-Wire Wire Line
-	4000 5950 4050 5950
-Wire Wire Line
-	4000 6400 4050 6400
-Wire Wire Line
-	4000 6850 3950 6850
-Wire Wire Line
-	4000 7300 4050 7300
 $EndSCHEMATC
